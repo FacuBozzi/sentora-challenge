@@ -15,7 +15,7 @@ export default function Dashboard() {
   ]);
 
   return (
-    <div className="flex flex-col gap-6 p-6">
+    <div className="flex flex-col gap-6 p-6 h-full">
       <h1 className="text-2xl font-semibold">Dashboard</h1>
       <div className="grid gap-4 md:grid-cols-3">
         <PairSelector value={pair} onChange={setPair} />

@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-light-button-blue: #E7F1FF;
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
