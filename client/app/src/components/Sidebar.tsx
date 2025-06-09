@@ -45,7 +45,7 @@ function SidebarItem({
 export default function Sidebar() {
   return (
     <div className="h-screen w-14 flex flex-col items-center py-5 border-r bg-white">
-      <div className="flex-1 flex flex-col items-center gap-6">
+      <div className="flex-1 flex flex-col items-center gap-5">
         {/* Logo icon */}
         <SidebarItem home icon="logo" label="Sentora" />
 
