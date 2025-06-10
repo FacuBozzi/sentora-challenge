@@ -19,6 +19,8 @@ import {
   }) {
     const { data, isLoading } = useAPR(pair, range, window);
     if (isLoading) return <p>Loading chart…</p>;
+
+    console.log('data',data)
   
     return (
       <ResponsiveContainer width="100%" height={300}>
